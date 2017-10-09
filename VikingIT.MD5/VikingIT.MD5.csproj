@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <Authors>Wikus Oosthuizen</Authors>
+    <Company>Viking IT Industries (Pty) Ltd.</Company>
+    <Copyright>Viking IT Industries (Pty) Ltd. © 2017</Copyright>
+    <Description>A package containing extensions for day-to-day development.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NeutralLanguage>en-ZA</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/VikingITIndustries/C-Extensions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Product>VikingIT.Extensions</Product>
+    <RepositoryType>Git</RepositoryType>
+    <RepositoryUrl>https://github.com/VikingITIndustries/C-Extensions</RepositoryUrl>
+    <RootNamespace>VikingIT.Extensions</RootNamespace>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

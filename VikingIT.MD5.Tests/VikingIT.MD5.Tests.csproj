@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <Authors>Wikus Oosthuizen</Authors>
+    <Company>Viking IT Industries (Pty) Ltd.</Company>
+    <Copyright>Viking IT Industries (Pty) Ltd. © 2017</Copyright>
+    <Description>A package containing extensions for day-to-day development.</Description>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <NeutralLanguage>en-ZA</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/VikingITIndustries/C-Extensions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Product>VikingIT.Extensions</Product>
+    <RepositoryType>Git</RepositoryType>
+    <RepositoryUrl>https://github.com/VikingITIndustries/C-Extensions</RepositoryUrl>
+    <RootNamespace>VikingIT.Extensions.Tests</RootNamespace>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170425-07" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.17" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VikingIT.MD5\VikingIT.MD5.csproj" />
+  </ItemGroup>
+
+</Project>
