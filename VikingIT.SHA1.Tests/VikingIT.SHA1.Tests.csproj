@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VikingIT.MD5\VikingIT.MD5.csproj" />
+    <ProjectReference Include="..\VikingIT.SHA1\VikingIT.SHA1.csproj" />
   </ItemGroup>
 
 </Project>
