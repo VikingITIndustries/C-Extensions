@@ -23,10 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VikingIT.Boolean.Tests", "V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VikingIT.NullCheck.Tests", "VikingIT.NullCheck.Tests\VikingIT.NullCheck.Tests.csproj", "{ECEE82DB-9F43-416B-AFB6-F3AE59821C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VikingIT.Imperial", "VikingIT.Imperial\VikingIT.Imperial.csproj", "{10A9B41D-C620-4D03-9306-9BC94FC675DE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VikingIT.Imperial.Tests", "VikingIT.Imperial.Tests\VikingIT.Imperial.Tests.csproj", "{E5EDDB40-0AD0-4261-A047-247278FD2D96}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,14 +61,6 @@ Global
 		{ECEE82DB-9F43-416B-AFB6-F3AE59821C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECEE82DB-9F43-416B-AFB6-F3AE59821C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECEE82DB-9F43-416B-AFB6-F3AE59821C0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10A9B41D-C620-4D03-9306-9BC94FC675DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10A9B41D-C620-4D03-9306-9BC94FC675DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10A9B41D-C620-4D03-9306-9BC94FC675DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10A9B41D-C620-4D03-9306-9BC94FC675DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5EDDB40-0AD0-4261-A047-247278FD2D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5EDDB40-0AD0-4261-A047-247278FD2D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5EDDB40-0AD0-4261-A047-247278FD2D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5EDDB40-0AD0-4261-A047-247278FD2D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,8 +74,6 @@ Global
 		{A0D9A65D-3399-43A1-93F1-E74DC2D5D713} = {D3561609-67C1-4FCA-B1B1-2A0A4E704BC7}
 		{91FE9F28-0F0A-4235-A0CF-7C20381633ED} = {6EE29720-876B-4C30-9039-A5F7BCBA0098}
 		{ECEE82DB-9F43-416B-AFB6-F3AE59821C0A} = {6EE29720-876B-4C30-9039-A5F7BCBA0098}
-		{10A9B41D-C620-4D03-9306-9BC94FC675DE} = {D3561609-67C1-4FCA-B1B1-2A0A4E704BC7}
-		{E5EDDB40-0AD0-4261-A047-247278FD2D96} = {6EE29720-876B-4C30-9039-A5F7BCBA0098}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {338C0826-CC8E-49B8-9515-4E991726F78A}
